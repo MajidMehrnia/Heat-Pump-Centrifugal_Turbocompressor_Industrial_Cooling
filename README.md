@@ -1,6 +1,6 @@
 ## Thermal Management System Design  
 
-This repository is based on a thermal management model originally developed in Simulink. It includes a virtual Battery Electric Vehicle (BEV) equipped with an integrated thermal management system [1].
+This repository is based on a thermal management model originally developed in Simulink. It includes a virtual Battery thermal management (BEV) equipped with an integrated thermal management system [1].
 
 In addition to the Simulink implementation, the refrigerant-based thermal management system is also modeled independently in GT-SUITE. This enables a detailed system-level representation of the vapor compression cycle, including the compressor, condenser, expansion device, and evaporator, with high-fidelity thermodynamic and component performance modeling.
 
@@ -12,7 +12,7 @@ To enhance model fidelity and accelerate the design process, a novel **ML**-base
 
 ## Description
 
-Developed a heat pump co-simulation framework for a BEV using Simulink & GT-SUITE, based on a reference EV thermal architecture. The model comprises five subsystems: 
+Developed a heat pump co-simulation framework for a BEV using Simulink & GT-SUITE, based on a reference thermal architecture. The model comprises five subsystems: 
 **Electric Powertrain**, **Driveline**, **Refrigerant Cycle**, **Coolant Cycle**, and **Cabin Cycle**. The control algorithms are implemented in Simulink and are contained in the **Controls** subsystem.
 
 The refrigerant system was modeled in GT-SUITE and coupled with Simulink to improve simulation accuracy. The working refrigerant in this system is **R1234yf**. The condenser is a rectangular tube-and-fin type heat exchanger that dissipates refrigerant heat to the air. The air flow is driven by the vehicle speed and the fan. The liquid receiver provides storage for the refrigerant and permits only subcooled liquid to flow into the expansion valves. The evaporator is a rectangular tube-and-fin type heat exchanger that lets the refrigerant absorb heat from the air. It also dehumidifies the air when the air is humid. The compressor model simulated here is representative of a Valeo-like electric **Scroll** compressor commonly used in automotive air-conditioning and thermal management systems. Two different approaches are employed to simulate the compressor: (i) a simple 1D map-based model; and (ii) a hybrid 3D-to-1D model.
