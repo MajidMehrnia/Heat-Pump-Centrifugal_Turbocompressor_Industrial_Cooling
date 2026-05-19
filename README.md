@@ -8,7 +8,7 @@ The compressor models simulated in this work are representative of various indus
 
 ## Centrifugal Turbocompressor System (process gas/air)
 
-The compressor drives the refrigerant or process gas flow in the system and is a key component in both industrial heat pump and centrifugal gas compression applications. Depending on the application, different compressor technologies are considered, including scroll compressors for automotive thermal systems, and high-speed centrifugal turbocompressors for industrial air and process gas systems.
+The compressor drives the refrigerant or process gas flow in the system and is a key component in both industrial heat pump and centrifugal gas compression applications. Depending on the application, different compressor technologies are considered, including scroll compressors for small thermal systems, and high-speed centrifugal turbocompressors for industrial air and process gas systems.
 
 For industrial centrifugal turbocompressors, the compressor is typically modeled using a high-fidelity 1D or hybrid 3D-to-1D approach. In this method, a detailed geometric representation (e.g., CAD-based impeller and diffuser geometry or reduced-order mean-line data) is used to derive flow area, volume, and loss distributions along the flow path. This enables the construction of a physics-based one-dimensional model capable of capturing the essential thermodynamic and fluid dynamic behavior of the machine while maintaining computational efficiency.
 
