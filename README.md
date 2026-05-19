@@ -19,6 +19,11 @@ The following figure illustrates a typical centrifugal compressor map used for m
 <img width="698" height="520" alt="CompressorMapExample_01" src="https://github.com/user-attachments/assets/27ff4b09-ec5d-40f5-b6fc-30222b6f8713" /> 
 <p align="center">
 <img width="537" height="278" alt="CompressorMapExample_05" src="https://github.com/user-attachments/assets/6c6b552a-174d-4494-b3c3-678262877813" />
+
+ The contour plot shows that the interpolated efficiency contours match the source data. Additionally, the points are now in a format that the compressor block can use. If the generated compressor map has oversimplified contours or is missing key details, re-select your data using a denser mesh. You may need to select more points along each speed line, select points along estimated additional speed lines, or select more data points for each efficiency contour level.
+
+Because this process interpolates data, there may be some precision loss. The only way to avoid this precision loss is to obtain the original raw test data used to generate the maps. Such data should contain a complete collection of corrected mass flow rates, pressure ratios, and efficiency values at a variety of operating conditions and speeds. This data, and the data used by the compressor block, is specified in the auxiliary coordinate system defined by the corrected speed, and the auxiliary coordinate β.
+<p align="center">
 <img width="560" height="337" alt="CompressorMapExample_04" src="https://github.com/user-attachments/assets/bf81af34-33f4-4128-9864-5d9b931b5e09" />
 
 
