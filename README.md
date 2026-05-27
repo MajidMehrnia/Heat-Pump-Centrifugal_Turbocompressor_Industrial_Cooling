@@ -3,6 +3,10 @@
 Developed a heat pump co-simulation framework using Simulink & GT-SUITE based on a reference thermal architecture. The model consists of three main subsystems: **Refrigerant Cycle**, **Coolant Cycle**, and **Controls**. The control algorithms are implemented in Simulink within the **Controls** subsystem.
 
 The refrigerant system is modeled in GT-SUITE and coupled with Simulink to improve simulation accuracy. The working fluid in this system is **R717 (Ammonia)**. The condenser is a tube-and-fin heat exchanger that rejects heat from the refrigerant to ambient air. The air flow is driven by a fan system. A liquid receiver is used to store refrigerant and ensure that only subcooled liquid is supplied to the expansion valves. The evaporator is also a tube-and-fin heat exchanger, where the refrigerant absorbs heat from ambient air and provides dehumidification under humid conditions.
+End-to-End NPI Workflow: 
+
+<img width="857" height="353" alt="image" src="https://github.com/user-attachments/assets/99f3d859-0a41-4c77-985d-82c4043f21d0" />
+
 
 The compressor models simulated in this work are representative of various industrial and thermal management compressor technologies, including **Centrifugal Compressors** and industrial heat pump compressors commonly used in process cooling and high-capacity heat pump applications. Two different modeling approaches are employed: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D reduced-order modeling approach.
 
