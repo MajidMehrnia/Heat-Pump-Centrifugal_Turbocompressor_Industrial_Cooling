@@ -6,7 +6,8 @@ The refrigerant system is modeled in GT-SUITE and coupled with Simulink to impro
 
 #### End-to-End NPI Workflow: 
 
-<img width="857" height="353" alt="image" src="https://github.com/user-attachments/assets/99f3d859-0a41-4c77-985d-82c4043f21d0" />
+<img width="720" height="299" alt="image" src="https://github.com/user-attachments/assets/feba2ce4-b358-4452-9c91-a4e42b70ea48" />
+
 
 
 The compressor models simulated in this work are representative of various industrial and thermal management compressor technologies, including **Centrifugal Compressors** and industrial heat pump compressors commonly used in process cooling and high-capacity heat pump applications. Two different modeling approaches are employed: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D reduced-order modeling approach.
